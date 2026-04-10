@@ -1,5 +1,9 @@
 # IMBK_Bank_Customer_Churn_ML
 
+
+<br>
+
+
 ## 📌 프로젝트 개요
 
 | 항목 | 내용 |
@@ -107,7 +111,6 @@ clf = setup(data=train_df, target="churn", session_id=42)
 best_model = compare_models(sort="F1")
 ```
 
----
 
 ### 2️⃣ Hyperparameter Tuning — Optuna
 
@@ -134,7 +137,6 @@ study_ada.optimize(objective_ada, n_trials=10)
 | LightGBM | Optuna | num_leaves, learning_rate, n_estimators |
 | RandomForest | Optuna | n_estimators, max_depth, min_samples_split |
 
----
 
 ### 3️⃣ Stacking Pipeline
 
@@ -148,6 +150,7 @@ stack = StackingClassifier(
 stack.fit(X_train, y_train)
 ```
 
+---
 **최종 Validation 성능**
 
 | 지표 | 개별 최고 모델 (AdaBoost) | Stacking 앙상블 |
@@ -156,7 +159,7 @@ stack.fit(X_train, y_train)
 | Accuracy | — | **0.8655** |
 
 > 개별 모델의 예측 결과를 결합함으로써 단일 모델의 한계를 보완하는 앙상블의 효과가 유효하게 작용
-
+---
 
 <br>
 
