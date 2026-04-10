@@ -86,6 +86,9 @@ valid_df[X] = scaler.transform(valid_df[X])        # 동일 기준 적용
 
 **성별(gender)에 따른 이탈률(churn) 분석**
 
+<img width="535" height="384" alt="image" src="https://github.com/user-attachments/assets/b7dbceb4-ea88-493f-a10c-ede745c1f57b" />
+
+
 - 여성(0) 이탈률 **약 25.1%** vs 남성(1) 이탈률 **약 16.5%** → 여성이 약 **8.6%p 더 높음**
 - 성별이 고객 이탈 여부를 예측하는 데 **유의미한 변수**임을 시사
 - 여성 고객이 이탈에 더 민감하게 반응하는 원인으로는 금융 상품 니즈 차이, 서비스 만족도 차이, 경쟁 은행으로의 이동 가능성 등을 고려할 수 있음
