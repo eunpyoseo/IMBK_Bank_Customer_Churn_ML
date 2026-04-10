@@ -88,8 +88,6 @@ valid_df[X] = scaler.transform(valid_df[X])        # 동일 기준 적용
 
 <img width="535" height="384" alt="image" src="https://github.com/user-attachments/assets/b7dbceb4-ea88-493f-a10c-ede745c1f57b" />
 
-<img width="535" height="384" alt="image" src="https://github.com/user-attachments/assets/a4dc4b3a-a741-4375-8de7-365fc70ce30a" />
-
 
 - 여성(0) 이탈률 **약 25.1%** vs 남성(1) 이탈률 **약 16.5%** → 여성이 약 **8.6%p 더 높음**
 - 성별이 고객 이탈 여부를 예측하는 데 **유의미한 변수**임을 시사
