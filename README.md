@@ -1,3 +1,8 @@
+https://github.com/eunpyoseo/IMBK_Bank_Customer_Churn_ML/blob/main/머신러닝_컴페티션_BaseLine서은표.ipynb
+
+<br>
+
+
 # IMBK_Bank_Customer_Churn_ML
 
 
