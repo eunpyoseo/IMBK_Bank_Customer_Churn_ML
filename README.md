@@ -86,7 +86,8 @@ valid_df[X] = scaler.transform(valid_df[X])        # 동일 기준 적용
 
 **성별(gender)에 따른 이탈률(churn) 분석**
 
-<img width="535" height="384" alt="image" src="https://github.com/user-attachments/assets/b7dbceb4-ea88-493f-a10c-ede745c1f57b" />
+<img width="539" height="387" alt="image" src="https://github.com/user-attachments/assets/8fa7bd19-f7c8-40a6-b855-009c4683e1d7" />
+
 
 
 - 여성(0) 이탈률 **약 25.1%** vs 남성(1) 이탈률 **약 16.5%** → 여성이 약 **8.6%p 더 높음**
